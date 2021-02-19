@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/android/android.iml" filepath="$PROJECT_DIR$/android/android.iml" />
+      <module fileurl="file://$PROJECT_DIR$/android-core/android-core.iml" filepath="$PROJECT_DIR$/android-core/android-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/android-integration/android-integration.iml" filepath="$PROJECT_DIR$/android-integration/android-integration.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javase/src/main/main.iml" filepath="$PROJECT_DIR$/javase/src/main/main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zxingorg/src/main/main1.iml" filepath="$PROJECT_DIR$/zxingorg/src/main/main1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/core/src/main/main2.iml" filepath="$PROJECT_DIR$/core/src/main/main2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javase/src/test/test.iml" filepath="$PROJECT_DIR$/javase/src/test/test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zxingorg/src/test/test1.iml" filepath="$PROJECT_DIR$/zxingorg/src/test/test1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/core/src/test/test2.iml" filepath="$PROJECT_DIR$/core/src/test/test2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/zxing-master.iml" filepath="$PROJECT_DIR$/.idea/zxing-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zxing.appspot.com/zxing.appspot.com.iml" filepath="$PROJECT_DIR$/zxing.appspot.com/zxing.appspot.com.iml" />
+    </modules>
+  </component>
+</project>
