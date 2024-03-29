@@ -17,6 +17,7 @@
 package com.google.zxing.web;
 
 import com.google.common.net.HttpHeaders;
+import io.github.pixee.security.Newlines;
 
 import javax.servlet.Filter;
 import javax.servlet.FilterConfig;
@@ -41,7 +42,7 @@ abstract class AbstractFilter implements Filter {
   static void redirect(ServletResponse servletResponse, String location) {
     HttpServletResponse response = (HttpServletResponse) servletResponse;
     response.setStatus(HttpServletResponse.SC_MOVED_PERMANENTLY);
-    response.setHeader(HttpHeaders.LOCATION, location);
+    response.setHeader(HttpHeaders.LOCATION, Newlines.stripAll(location));
   }
 
 }
